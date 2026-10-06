@@ -434,9 +434,11 @@ h4 {
 /* ============ SERVICE TYPES (5 Jenis Layanan) ============ */
 .service-types {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 1.8rem 1.4rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 1.8rem;
   margin-bottom: 5rem;
+  max-width: 980px;
+  margin-inline: auto;
 }
 
 .service-type {
@@ -516,39 +518,36 @@ h4 {
 }
 
 /* ============ RESPONSIVE — SERVICE TYPES ============ */
-@media (max-width: 1024px) {
+/* ✅ Baru */
+@media (max-width: 900px) {
   .service-types {
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem 1.4rem;
+    gap: 1.6rem 1rem;
   }
+  .service-type-img {
+    width: 110px;
+    height: 110px;
+  }
+  .service-type h3 { font-size: 1.05rem; }
+  .service-type p  { font-size: .82rem; }
 }
 
 @media (max-width: 640px) {
   .service-types {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.6rem 1rem;
+    grid-template-columns: 1fr;
+    gap: 2.2rem;
     margin-bottom: 3.5rem;
+    max-width: 340px;
   }
   .service-type-img {
-    width: 105px;
-    height: 105px;
+    width: 130px;
+    height: 130px;
     border-width: 3px;
   }
-  .service-type h3 {
-    font-size: 1.05rem;
-  }
-  .service-type p {
-    font-size: 0.78rem;
-  }
-
-  .services-divider {
-    margin-bottom: 2rem;
-    padding-top: 0.5rem;
-  }
-  .divider-title {
-    font-size: 1.3rem;
-  }
+  .service-type h3 { font-size: 1.15rem; }
+  .service-type p  { font-size: .85rem; max-width: 100%; }
 }
+
 .service-card {
   position: relative;
   background: var(--white);
