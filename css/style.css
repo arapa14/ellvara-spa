@@ -267,8 +267,7 @@ h4 {
   color: var(--cream);
   background:
     linear-gradient(135deg, rgba(46, 27, 26, 0.85), rgba(74, 44, 42, 0.75)),
-    url("https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1600&q=80")
-      center/cover no-repeat;
+    url("../assets/images/hero-bg.webp") center/cover no-repeat;
   overflow: hidden;
 }
 .hero-overlay {
@@ -679,20 +678,10 @@ h4 {
   color: var(--brown-dark);
 }
 
-/* ============ CTA ============ */
-.cta-section {
-  background:
-    linear-gradient(135deg, rgba(46, 27, 26, 0.95), rgba(74, 44, 42, 0.9)),
-    url("https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1600&q=80")
-      center/cover;
-  color: var(--cream);
-}
-/* ============ CTA SECTION ============ */
 .cta-section {
   background:
     linear-gradient(135deg, rgba(46, 27, 26, 0.96), rgba(74, 44, 42, 0.92)),
-    url("https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=1600&q=80")
-      center/cover;
+    url("../assets/images/cta-bg.webp") center/cover;
   color: var(--cream);
   position: relative;
   overflow: hidden;
