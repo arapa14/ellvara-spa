@@ -46,8 +46,8 @@ ellvara-spa/
 6. **Footer** — kontak & copyright.
 
 ## 📞 Kontak
-- WhatsApp 1: [085691670073](https://wa.me/6285691670073)
 - WhatsApp 2: [08139536208](https://wa.me/628139536208)
+- WhatsApp 1: [085691670073](https://wa.me/6285691670073)
 
 ## 🚀 Deployment
 1. Push ke GitHub.
